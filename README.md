@@ -10,7 +10,7 @@ A list of <a href="https://flightaware.com/commercial/flightxml/explorer/#op_Fli
 
 # Notes
 
-The only hard part here is picking out the data needed from the full JSON request. You might find some of this interesting, but I only needed a few of these. It'll look something like this: 
+The only hard part here is picking out the data needed from the full JSON request. Hella gross. You might find some of this useful, but I only needed a few of these. It'll look something like this: 
 
 ```
 {'FlightInfoResult': {'next_offset': 1, 'flights': [{'ident': 'SWA1662', 'aircrafttype': 'B737', 'filed_ete': '03:00:00', 'filed_time': 1548829550, 'filed_departuretime': 1549044600, 'filed_airspeed_kts': 414, 'filed_airspeed_mach': '', 'filed_altitude': 0, 'route': '', 'actualdeparturetime': 0, 'estimatedarrivaltime': 1549055400, 'actualarrivaltime': 0, 'diverted': '', 'origin': 'KHOU', 'destination': 'KLGA', 'originName': 'William P Hobby', 'originCity': 'Houston, TX', 'destinationName': 'LaGuardia', 'destinationCity': 'New York, NY'}]}}
