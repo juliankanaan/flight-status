@@ -8,7 +8,7 @@ You'll need to sign up for <a href='http://flightxml.flightaware.com/soap/Flight
 
 A list of <a href="https://flightaware.com/commercial/flightxml/explorer/#op_FlightInfo">endpoints</a> available is here, but we'll just use the `FlightInfo` module. 
 
-For texts (optional), I'm using the <a href="https://www.twilio.com/docs/sms/quickstart/python">Twilio API</a> to send messages. It's super easy. 
+For texts (optional), I'm using the <a href="https://www.twilio.com/docs/sms/quickstart/python">Twilio API</a> to send messages. Sign up and get your credentials. 
 
 # Notes
 
