@@ -1,12 +1,14 @@
 # Flight Status
 
-My flight to NYC from HTX got delayed a while, so I threw this together. 
+My flight to NYC from HTX got delayed a while, so I threw this together. It'll send you a text once your flight gets delayed.
 
 # How to Use
 
 You'll need to sign up for <a href='http://flightxml.flightaware.com/soap/FlightXML2/doc'>FlightAware's API</a>. It's basically free per request, especially with tiny queries like this. Register and get an API key. 
 
 A list of <a href="https://flightaware.com/commercial/flightxml/explorer/#op_FlightInfo">endpoints</a> available is here, but we'll just use the `FlightInfo` module. 
+
+For texts (optional), I'm using the <a href="https://www.twilio.com/docs/sms/quickstart/python">Twilio API</a> to send messages. It's super easy. 
 
 # Notes
 
